@@ -74,9 +74,9 @@ will put a disclaimer before). You can do whatever you want.
 
 | Topic             | Link                                  |
 |-------------------|---------------------------------------|
-| Personal Tools    | [link](./Personal Tools/README.md)    |
-| Personal Branding | [link](./Personal Branding/README.md) |
-| Server Builds     | [link](./Server Builds/README.md)     |
+| Personal Tools    | [link](./Personal_Tools/README.md)    |
+| Personal Branding | [link](./Personal_Branding/README.md) |
+| Server Builds     | [link](./Server_Builds/README.md)     |
 | Automations       | [link](./Automations/README.md)       |
-| Set and forget    | [link](./Set and Forget/README.md)    |
+| Set and forget    | [link](./Set_and_Forget/README.md)    |
 | API               | [link](./API/README.md)               |
