@@ -74,7 +74,7 @@ will put a disclaimer before). You can do whatever you want.
 
 | Topic             | Link                                  |
 |-------------------|---------------------------------------|
-| Personal Tools    | [link](Personal Tools/README.md)      |
+| Personal Tools    | [link](./Personal Tools/README.md)    |
 | Personal Branding | [link](./Personal Branding/README.md) |
 | Server Builds     | [link](./Server Builds/README.md)     |
 | Automations       | [link](./Automations/README.md)       |
