@@ -22,6 +22,9 @@ amazon, but outside of this guide you will have to manage dns your own way.
 
 [Amazon TLD Support](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/registrar-tld-list.html)
 
+What benefits do you get having your domain in aws? It makes your
+automations easier when we get to that point.
+
 ## Create your email
 
 Amazon has a service to create an email
@@ -40,3 +43,38 @@ Amazon has a plethora of ways to host a site. You have
 [Amazon Lightsail](https://aws.amazon.com/lightsail/),
 [Amazon ElasticBeanStalk](https://aws.amazon.com/elasticbeanstalk/), and
 much more. No way is right or wrong, but here's the cost breakdown.
+
+### EC2
+
+This will probably take you the most effort to configure and the cheapest
+option.
+
+Monthly if you run it on a t2.micro (reminder this is personal projects like
+your website, dns servers, vpn server, etc) it will be free99.
+
+### S3
+
+You can configure a static website on s3. Security best practices advise
+against leaving an s3 bucket open to the internet, but to each his own.
+
+You can get away with doing this for free if you have low hits to your site.
+S3 is pay per 1,000 requests, BUT within the free tier limits you pay after
+20k requests.
+
+### Amplify
+
+This is a pretty cool option that handles a lot of stuff for you. You can
+define your build environment and it will create a pipeline for you. This
+isn't within the always free for aws tier. You can find more information
+[here](https://aws.amazon.com/amplify/pricing/).
+
+### Lightsail
+
+I personally haven't used it but looks like a viable option. There is a cost
+associated with using this however. More details [here](https://aws.amazon.com/lightsail/pricing/)
+
+### Elastic Beanstalk
+
+The pricing for this is similar to amplify. There's no cost to using this
+service, you just pay for the resources. So you *could* possibly get free
+usage out of this. More details [here](https://aws.amazon.com/elasticbeanstalk/pricing/)
