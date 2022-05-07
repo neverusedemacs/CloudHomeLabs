@@ -61,6 +61,8 @@ You can get away with doing this for free if you have low hits to your site.
 S3 is pay per 1,000 requests, BUT within the free tier limits you pay after
 20k requests.
 
+I have an example links page you can use [here](https://github.com/neverusedemacs/linktree)
+
 ### Amplify
 
 This is a pretty cool option that handles a lot of stuff for you. You can
